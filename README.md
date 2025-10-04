@@ -1,6 +1,6 @@
 # DeFi Liquidity Aggregator em Rust
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/GabrielDemetrius/rust-defi-liquidity-aggregator/rust.yml?branch=main&style=for-the-badge) ![License](https://img.shields.io/github/license/GabrielDemetrius/rust-defi-liquidity-aggregator?style=for-the-badge) ![Crates.io](https://img.shields.io/crates/v/defi-liquidity-aggregator?style=for-the-badge)
+![Build Status](https://img.shields.io/github/actions/workflow/status/galafis/rust-defi-liquidity-aggregator/rust.yml?branch=main&style=for-the-badge) ![License](https://img.shields.io/github/license/galafis/rust-defi-liquidity-aggregator?style=for-the-badge) ![Crates.io](https://img.shields.io/crates/v/defi-liquidity-aggregator?style=for-the-badge)
 
 ---
 
@@ -35,7 +35,7 @@ This is a liquidity aggregator for the Decentralized Finance (DeFi) ecosystem, b
 ## 🚀 Getting Started
 
 ```sh
-git clone https://github.com/GabrielDemetrius/rust-defi-liquidity-aggregator.git
+git clone https://github.com/galafis/rust-defi-liquidity-aggregator.git
 cd rust-defi-liquidity-aggregator
 cargo build --release
 cargo run --release

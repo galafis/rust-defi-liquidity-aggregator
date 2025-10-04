@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Gabriel Demetrios Lafis"]
 description = "DeFi liquidity aggregator with optimal swap routing across multiple DEXs"
 license = "MIT"
-repository = "https://github.com/GabrielDemetrius/rust-defi-liquidity-aggregator"
+repository = "https://github.com/galafis/rust-defi-liquidity-aggregator"
 keywords = ["defi", "dex", "liquidity", "swap", "blockchain"]
 categories = ["finance", "cryptography::cryptocurrencies"]
 

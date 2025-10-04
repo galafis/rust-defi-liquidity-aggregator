@@ -1,5 +1,5 @@
 use crate::dex::DEX;
-use crate::types::{SwapRequest, SwapRoute, Token};
+use crate::types::{SwapRequest, SwapRoute};
 use anyhow::Result;
 use rust_decimal_macros::dec;
 
