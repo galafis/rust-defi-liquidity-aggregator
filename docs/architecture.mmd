@@ -1,0 +1,19 @@
+graph TD
+    subgraph User
+        A[Swap Request] --> B{PathFinder}
+    end
+
+    subgraph PathFinder
+        B --> C{DEX Integration}
+        C --> D1[Uniswap Pool]
+        C --> D2[SushiSwap Pool]
+        C --> D3[Curve Pool]
+
+        B -- Liquidity Data --> B
+        B -- Optimal Route --> E{Swap Simulator}
+    end
+
+    subgraph Execution
+        E -- Simulated TX --> F[Gas Estimator]
+        F --> G[Final Swap Route]
+    end

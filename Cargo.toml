@@ -1,0 +1,31 @@
+[package]
+name = "defi-liquidity-aggregator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Gabriel Demetrios Lafis"]
+description = "DeFi liquidity aggregator with optimal swap routing across multiple DEXs"
+license = "MIT"
+repository = "https://github.com/GabrielDemetrius/rust-defi-liquidity-aggregator"
+keywords = ["defi", "dex", "liquidity", "swap", "blockchain"]
+categories = ["finance", "cryptography::cryptocurrencies"]
+
+[dependencies]
+tokio = { version = "1.40", features = ["full"] }
+ethers = "2.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rust_decimal = "1.36"
+rust_decimal_macros = "1.36"
+petgraph = "0.6"
+anyhow = "1.0"
+thiserror = "1.0"
+log = "0.4"
+env_logger = "0.11"
+async-trait = "0.1"
+
+[dev-dependencies]
+tokio-test = "0.4"
+
+[[bin]]
+name = "defi-aggregator"
+path = "src/main.rs"
