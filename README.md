@@ -20,6 +20,20 @@
 
 Agregador de liquidez para o ecossistema DeFi que encontra a rota mais eficiente para swaps de tokens, consultando múltiplos Decentralized Exchanges (DEXs) para garantir o melhor preço e menor slippage.
 
+```mermaid
+flowchart LR
+    A[DEX Sources\nUniswap / SushiSwap / Curve] --> B[Price Discovery\nQuotes & Slippage]
+    B --> C[Optimal Routing\nPathfinding Algorithm]
+    C --> D[Liquidity Aggregation\nMulti-hop Routes]
+    D --> E[Execution\nTransaction Submission]
+
+    style A fill:#e65100,color:#fff
+    style B fill:#1a73e8,color:#fff
+    style C fill:#0f9d58,color:#fff
+    style D fill:#7b1fa2,color:#fff
+    style E fill:#db4437,color:#fff
+```
+
 ### Por que usar?
 
 - ⚡ **Alta Performance** - Desenvolvido em Rust
